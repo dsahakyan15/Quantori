@@ -1,0 +1,47 @@
+.modal {
+  width: 400px;
+  margin: 100px auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  height: 500px;
+  border-radius: 30px;
+  margin-bottom: 500px;
+}
+.title {
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.formEmail,
+.formPassword {
+  outline: none;
+  border: 3px solid #8da29f;
+  border-radius: 10px;
+  width: 300px;
+  margin-bottom: 30px;
+  padding: 10px 15px 10px 3px;
+}
+.formPassword {
+  margin-bottom: 60px;
+}
+.btns {
+  display: flex;
+}
+.btns > button {
+  padding: 10px 35px;
+  border-radius: 10px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.cancelBtn {
+  border: 2px solid #8da29f;
+  background-color: #fff;
+  color: #8da29f;
+}
+.loginBtn {
+  background-color: #8da29f;
+  color: #fff;
+  border: 2px solid #8da29f;
+}
